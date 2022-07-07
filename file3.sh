@@ -1,8 +1,8 @@
 echo "hi this is vikram2"
-mkdir vikram2
-time
+mkdir vikram3
+uname
 date 
 whoami
-cd vikram2
-touch file1 file2 file3
-echo "this is vikram again"
+cd vikram3
+touch file1 file2 file3 file4
+echo "this is vikram again we got uname here"
