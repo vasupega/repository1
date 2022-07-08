@@ -16,11 +16,11 @@ pipeline{
             steps {
                 echo "added a stage1 to jenkins pipeline"
                               }
-              
-            stage("add unit stage") {
+                        }
+          stage("addedstage1") {
             steps {
-                echo "creating a test file for jenkins"
-                
+                echo "added a stage1 to jenkins pipeline"
+                              }
         }
     }
 }
