@@ -12,5 +12,10 @@ pipeline{
                 echo "creating a Sh file to jenkins pipeline"
                               }
         }
+          stage("addedstage1") {
+            steps {
+                echo "added a stage1 to jenkins pipeline"
+                              }
+        }
     }
 }
