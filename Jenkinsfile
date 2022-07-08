@@ -16,5 +16,26 @@ pipeline{
                 echo "extra activites to jenkins pipeline"
             }
         }
+        stage("createdir") {
+            steps {
+                echo "creating a directory  to jenkins pipeline"
+                mkdir vikram112
+                
+            }
+        }
+        stage("createfile") {
+            steps {
+                echo "creating a file to jenkins pipeline"
+                pwd
+                touch file1111 file2222
+            }
+        }
+        stage("creatingtheshfile") {
+            steps {
+                echo "creating a Sh file to jenkins pipeline"
+                pwd
+                touch file1.sh
+            }
+        }
     }
 }
