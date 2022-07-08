@@ -16,12 +16,7 @@ pipeline{
                 echo "extra activites to jenkins pipeline"
             }
         }
-        stage("createdir") {
-            steps {
-                echo "creating a directory  to jenkins pipeline"
-            }
-        }
-                stage("creatingtheshfile") {
+            stage("creatingtheshfile") {
             steps {
                 echo "creating a Sh file to jenkins pipeline"
                               }
