@@ -22,5 +22,10 @@ pipeline{
                 echo "added a ubit test line"
                               }
         }
+        stage("anothertest") {
+            steps {
+                echo "added  anothertest a ubit test line"
+                              }
+        }
     }
 }
