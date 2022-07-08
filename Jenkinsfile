@@ -16,6 +16,10 @@ pipeline{
             steps {
                 echo "added a stage1 to jenkins pipeline"
                               }
+              
+            stage("add unit stage") {
+            steps {
+                echo "creating a test file for jenkins"
         }
     }
 }
