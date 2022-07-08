@@ -17,9 +17,9 @@ pipeline{
                 echo "added a stage1 to jenkins pipeline"
                               }
                         }
-          stage("addedstage1") {
+          stage("unit test") {
             steps {
-                echo "added a stage1 to jenkins pipeline"
+                echo "added a ubit test line"
                               }
         }
     }
