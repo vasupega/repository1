@@ -22,9 +22,9 @@ pipeline{
                 echo "added a ubit test line"
                               }
         }
-        stage("anothertest") {
+        stage("build") {
             steps {
-                echo "added  anothertest a ubit test line"
+                echo "added  anothertest a ubit test line5"
                               }
         }
     }
